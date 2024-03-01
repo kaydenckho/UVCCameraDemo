@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/arm64-v8a
+directory /Users/kay/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot jni/UVCCamera/ jni/UVCCamera/../ jni/UVCCamera/../rapidjson/include jni/libuvc/android/jni/../../ jni/libuvc/android/jni/../../include jni/libuvc/android/jni/../../include/libuvc jni/libjpeg/android/jni/../../ jni/libusb/android/jni/../../ jni/libusb/android/jni/../../libusb jni/libusb/android/jni/../../libusb/os jni/libusb/android/jni/../../../ jni/libuvc/android/jni/../../..
