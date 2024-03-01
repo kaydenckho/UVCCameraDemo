@@ -1,11 +1,11 @@
 # UVCCameraDemo
 
-Android 串口摄像头(USB 摄像头)基本使用，可预览，拍照，录像
+Android 串口相機(USB 相機)基本上使用，可預覽，拍照，錄影
 
-+ 预览，点击开关按钮可选择 USB 设备，之后可预览
++ 預覽，點選開關按鈕選擇 USB 設備，之後可預覽
 
-+ 拍照，长按预览界面可拍照
++ 拍照，長按預覽介面可拍照
 
-+ 录像，点击摄像头按钮即可录像
++ 錄影，點選攝影機按鈕即可錄影
 
-参考：https://github.com/saki4510t/UVCCamera
+參考：https://github.com/saki4510t/UVCCamera
