@@ -5,8 +5,8 @@
     <dimen name="list_font_size">18sp</dimen>
     <dimen name="list_height_min">32dp</dimen>
     <dimen name="vertical_margin">16dp</dimen>
-    <string name="camera">摄像头</string>
-    <string name="no_device">未发现 USB 摄像头</string>
+    <string name="camera">攝像頭</string>
+    <string name="no_device">未發現USB攝像頭</string>
     <string name="refresh">刷新</string>
-    <string name="select">请选择 USB 摄像头</string>
+    <string name="select">請選擇USB攝像頭</string>
 </resources>

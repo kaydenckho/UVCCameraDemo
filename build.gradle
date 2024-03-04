@@ -2,13 +2,21 @@
 
 buildscript {
     repositories {
-        jcenter()
         google()
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:1.8.0"
+
     }
 }
+
+plugins {
+    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+}
+
 
 allprojects {
     repositories {

@@ -170,6 +170,7 @@ public class CameraDialog extends DialogFragment {
 			case DialogInterface.BUTTON_POSITIVE:
 				final Object item = mSpinner.getSelectedItem();
 				if (item instanceof UsbDevice) {
+					mUSBMonitor.register();
 					mUSBMonitor.requestPermission((UsbDevice)item);
 				}
 				break;

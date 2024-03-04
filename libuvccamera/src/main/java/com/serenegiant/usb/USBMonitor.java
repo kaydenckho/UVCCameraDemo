@@ -126,7 +126,6 @@ public final class USBMonitor {
 	 */
 	public synchronized void register() {
 		if (mPermissionIntent == null) {
-			if (DEBUG) Log.i(TAG, "registerter:");
 			final Context context = mWeakContext.get();
 			if (context != null) {
 				mPermissionIntent = PendingIntent.getBroadcast(context, 0, new Intent(ACTION_USB_PERMISSION), 0);
